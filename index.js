@@ -62,4 +62,4 @@ app.get("/singleData", (req, res) => {
 });
 
 
-app.listen(port)
+app.listen(process.env.PORT || port)
